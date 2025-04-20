@@ -1,0 +1,153 @@
+
+   *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    color: #333;
+    background-image: url('https://www.shutterstock.com/image-vector/blue-red-magnet-lightning-effect-1979670317'); 
+}
+
+header {
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-image: url('https://th.bing.com/th?id=OIP.1PIzIJIccYLDB1CXbzgnuwHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s, transform 0.3s;
+}
+nav ul li a:hover {
+    color: #1eff00;
+    transform: translateY(-3px);
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(""); 
+}
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: #333;
+    border-bottom: 3px solid #4CAF50;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+p {
+    font-size: 1.2em;
+    margin: 15px 0;
+    line-height: 1.8;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 15px 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 20px 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.responsive:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    text-align: left;
+    padding: 30px;
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
+    background-image: url("https://th.bing.com/th/id/OIP.1jwqvPBCNgqm0jQCbDTnvQHaEo?w=264&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7"); 
+   
+}
+
+footer a {
+    color:cyan;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #00ccff;
+}
+
+footer h2 {
+    color: rgba(255, 255, 255, 0.874);
+    border-bottom: none;
+    margin-bottom: 15px;
+}
+
+footer div {
+    max-width: 800px;
+    margin: auto;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+section {
+    animation: fadeIn 1s ease-in-out;
+}
